@@ -1,0 +1,9 @@
+@use "./variables" as *;
+@use "sass:map";
+
+// mediaQuery
+@mixin mq($bp) {
+  @media (max-width: map.get($breakpoints, $bp)) {
+    @content;
+  }
+}

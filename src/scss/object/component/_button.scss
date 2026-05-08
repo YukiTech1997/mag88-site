@@ -1,0 +1,13 @@
+@use "../../foundation/variables" as *;
+
+// btn
+.c-btn {
+  display: inline-block;
+  font-size: $fontSize-secondary;
+  border: 1px solid $siteColor-black;
+  padding: 14px 36px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}

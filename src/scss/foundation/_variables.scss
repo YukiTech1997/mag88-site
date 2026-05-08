@@ -1,0 +1,18 @@
+// font
+$fontSize-title: 24px;
+$fontSize-title-sub: 20px;
+$fontSize-footer: 16px;
+$fontSize-primary: 14px;
+$fontSize-secondary: 12px;
+$fontFamily: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+
+// color
+$siteColor-black: #24292E;
+$siteColor-white: #FFF;
+$footerBgColor: #333;
+
+// breakpoints
+$breakpoints: (
+  'sm': 480px,
+  'md': 896px,
+);

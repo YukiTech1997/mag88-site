@@ -1,0 +1,11 @@
+
+// サイトのロゴ
+.c-logo {
+  &__area {
+    display: block;
+    img {
+      width: 120px;
+      height: auto;
+    }
+  }
+}

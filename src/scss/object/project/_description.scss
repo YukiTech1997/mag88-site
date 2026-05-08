@@ -1,0 +1,25 @@
+@use "../../foundation/variables" as *;
+
+// desc
+.p-desc {
+  width: calc(100% / 3);
+  height: auto;
+  color: $siteColor-white;
+
+  &__title {
+    font-size: $fontSize-footer;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  &__list {
+    list-style-type: "-";
+    list-style-position: inside;
+  }
+
+  &__text {
+    font-size: $fontSize-secondary;
+    line-height: 24px;
+  }
+}

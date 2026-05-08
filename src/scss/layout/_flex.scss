@@ -1,0 +1,30 @@
+@use "../foundation/variables" as *;
+@use "../foundation/mixin" as *;
+
+// grid
+.l-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include mq(md) {
+    flex-direction: column;
+  }
+
+  &--gap6 {
+    gap: 6px;
+    align-items: stretch;
+  }
+
+  &--gap20 {
+    gap: 20px;
+  }
+
+  &--gap40 {
+    gap: 40px;
+  }
+
+  &--center {
+    align-self: center;
+  }
+}

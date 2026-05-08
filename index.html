@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CodejumpのMag88サイトの模写コーディングです。">
+  <title>Mag88</title>
+  <link rel="shortcut icon" href="./public/img/favicon.ico" type="image/x-icon">
+  <!-- scss読み込み -->
+  <script type="module" src="./src/js/main.js"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="l-header">
+    <h1 class="c-logo">
+      <a class="c-logo__area" href="./index.html">
+        <img src="./public/img/logo.svg" alt="サイトのロゴ">
+      </a>
+    </h1>
+  </header>
+  <!-- /header -->
+  <main>
+    <!-- mainVisual -->
+    <div class="l-mainVisual">
+      <img src="./public/img/mainvisual.jpg" alt="サイトのメインビジュアル">
+    </div>
+    <!-- /mainVisual -->
+    <!-- article -->
+    <section class="l-sec l-container">
+      <h2 class="p-sec__title u-title">
+        A special, long article in a newspaper or magazine
+      </h2>
+      <p class="p-sec__text u-text">
+        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+        テキストテキストテキストテキストテキストテキストテキストテキスト
+      </p>
+      <div class="l-flex l-flex--gap20 p-article">
+        <a href="#" class="p-article__inner">
+          <img src="./public/img/magazine-archive.jpg" alt="マガジンのアーカイブ">
+          <div class="p-article__item">
+            <h3 class="p-article__title">Archive</h3>
+            <p class="p-sec__text">
+              テキストテキストテキストテキスト<br>
+              テキストテキストテキスト
+            </p>
+          </div>
+        </a>
+        <a href="#" class="p-article__inner">
+          <img src="./public/img/magazine-new.jpg" alt="ニューマガジン">
+          <div class="p-article__item">
+            <h3 class="p-article__title">New</h3>
+            <p class="p-sec__text">
+              テキストテキストテキストテキスト<br>
+              テキストテキストテキスト
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- /article -->
+    <!-- fashion -->
+    <section class="l-sec p-fashion">
+      <div class="l-container l-container--spaceTop">
+        <h2 class="p-sec__title">
+          Fashion & Style
+        </h2>
+        <p class="p-sec__text u-text">
+          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+          テキストテキストテキストテキストテキストテキストテキストテキスト
+        </p>
+        <div class="p-fashion__btn">
+          <a class="c-btn" href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- /fashion -->
+    <!-- catalogAntique -->
+    <section class="l-sec p-catalogAntique">
+      <div class="l-container l-container--space">
+        <article class="l-flex l-flex--gap40">
+          <img class="p-catalogAntique__img" src="./public/img/catalog.jpg" alt="catalog">
+          <div class="p-catalogAntique__inner">
+            <h2 class="p-sec__title p-catalogAntique__title">Catalog</h2>
+            <p class="p-sec__text p-catalogAntique__text">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+            </p>
+            <p class="p-sec__text p-catalogAntique__text">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+            </p>
+            <p class="p-sec__text p-catalogAntique__text">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+            </p>
+          </div>
+        </article>
+        <article class="l-flex l-flex--gap40 p-catalogAntique__wrapper">
+          <img class="p-catalogAntique__img" src="./public/img/antique.jpg" alt="antique">
+          <div class="p-catalogAntique__inner">
+            <h2 class="p-sec__title p-catalogAntique__title">Antique</h2>
+            <p class="p-sec__text p-catalogAntique__text">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+            </p>
+            <p class="p-sec__text p-catalogAntique__text">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+            </p>
+            <div class="p-catalogAntique__btn">
+              <a class="c-btn" href="#">Read More</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- /catalogAntique -->
+  </main>
+  <footer>
+    <div class="l-footer">
+      <div class="l-container l-flex l-flex--gap6">
+        <a class="c-logo__area p-desc l-flex--center" href="./index.html">
+          <img src="./public/img/logo.svg" alt="サイトのロゴ">
+        </a>
+        <dl class="p-desc">
+          <dt class="p-desc__title">タイトル</dt>
+          <dd>
+            <ul class="p-desc__list">
+              <li class="p-desc__text">テキストテキストテキスト</li>
+              <li class="p-desc__text">テキストテキストテキスト</li>
+              <li class="p-desc__text">テキストテキストテキスト</li>
+              <li class="p-desc__text">テキストテキストテキスト</li>
+              <li class="p-desc__text">テキストテキストテキスト</li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="p-desc">
+          <dt class="p-desc__title">タイトルタイトルタイトル</dt>
+          <dd class="p-desc__text">
+            テキストテキストテキストテキストテキストテキストテキ
+            ストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキ
+            ストテキストテキストテキストテキストテキストテキスト
+            テキスト
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div class="l-flex l-footer__copyRight">
+      <small class="p-copyRight__text">&copy; 2026 Mag88</small>
+    </div>
+  </footer>
+</body>
+
+</html>

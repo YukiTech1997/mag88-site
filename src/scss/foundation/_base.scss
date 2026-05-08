@@ -1,0 +1,12 @@
+@use "variables" as *;
+
+// base
+body {
+  font-size: $fontSize-primary;
+  font-family: $fontFamily;
+  color: $siteColor-black;
+}
+img {
+  width: 100%;
+  height: auto;
+}

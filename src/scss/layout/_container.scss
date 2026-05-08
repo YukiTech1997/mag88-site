@@ -1,0 +1,24 @@
+@use "../foundation/variables" as *;
+@use "../foundation/mixin" as *;
+
+// container
+.l-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+
+  &--space {
+    padding: 60px 5%;
+
+    @include mq(md) {
+      padding: 30px 5%;
+    }
+  }
+  &--spaceTop {
+    padding-top: 60px;
+
+    @include mq(md) {
+      padding-top: 35px;
+    }
+  }
+}
